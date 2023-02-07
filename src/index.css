@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  @apply text-[5rem] text-[#021963] font-bitter font-bold;
+}
+
+#nav a {
+  @apply font-bitter;
+}
+
+#home button {
+  @apply relative  border-[white] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid hover:bg-[#aadcec] hover:text-[white];
+}
+#home a {
+  @apply hover:text-white font-bitter;
+}
+#home button a {
+  @apply font-[700] text-[#73bbc5]  capitalize tracking-widest;
+}
+
+#about a {
+  @apply font-[700] text-[#73bbc5]  capitalize tracking-widest;
+}
+#about h1 {
+  @apply text-[#021963];
+}
+
+#about h2 {
+  @apply font-bitter text-[#021963] text-[1.2rem] text-left pt-7;
+}
+
+#skillset h1 {
+  @apply text-[#1c494c] capitalize;
+}
+#skillset span {
+  @apply text-[#73cadc];
+}
+
+#skillset p {
+  @apply font-semibold font-bitter text-[#1c494c];
+}
+
+span {
+  @apply text-[#73bbc5];
+}
+
+input {
+  @apply border-[#7f00e0]  border-[5px] border-solid text-center rounded focus:outline-none font-semibold shrink text-6xl;
+}
+
+input::placeholder {
+  @apply text-[#73bbc5];
+}
+
+/* .stripes {
+  @apply bg-[url("data:image/svg+xml,%3Csvg_xmlns='http://www.w3.org/2000/svg'_viewBox='0_0_22.93_22.93'%3E%3Cpolygon_fill='%23aadcec'_points='0_8.18_14.75_22.93_22.74_22.93_0_0.19_0_8.18'/%3E%3Cpolygon_fill='%23aadcec'_points='22.93_8.37_22.93_0.38_22.56_0_14.56_0_22.93_8.37'/%3E%3C/svg%3E")] bg-[11px] opacity-60;
+} */
+
+.stripes {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22.93 22.93'%3E%3Cpolygon fill='%23aadcec' points='0 8.18 14.75 22.93 22.74 22.93 0 0.19 0 8.18'/%3E%3Cpolygon fill='%23aadcec' points='22.93 8.37 22.93 0.38 22.56 0 14.56 0 22.93 8.37'/%3E%3C/svg%3E");
+  background-size: 11px;
+  opacity: 0.6;
+}
+button:hover a {
+  color: white;
+}
