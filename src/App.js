@@ -1,6 +1,7 @@
 import Nav from "./Nav";
 import About from "./About.js";
 import Skillset from "./Skillset";
+import Projects from "./Projects";
 import Home from "./Home";
 import "./App.css";
 
@@ -14,10 +15,7 @@ function App() {
       {/* Skill */}
       <Skillset />
       {/* Projects */}
-      <div id='projects' className='w-full h-screen scroll-smooth'>
-        Projects
-      </div>
-
+      <Projects />
       {/* Contact */}
       <div
         id='contact'

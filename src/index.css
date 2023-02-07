@@ -57,6 +57,17 @@ h1 {
   @apply font-semibold font-bitter text-[#1c494c];
 }
 
+#projects {
+  @apply bg-[fdfbf9];
+}
+#projects h1 {
+  @apply text-[#47280b];
+}
+
+#projects span {
+  @apply text-[#ff5708];
+}
+
 span {
   @apply text-[#73bbc5];
 }

@@ -22,6 +22,7 @@ const Home = () => {
               "I love designing",
               "I love coding",
               "I love sleeping",
+              "I love pakpak",
               "<3",
             ]}
             typeSpeed={80}

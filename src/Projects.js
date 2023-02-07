@@ -1,14 +1,14 @@
 import React from "react";
 
-const About = () => {
+const Projects = () => {
   return (
     <div
-      id='about'
-      className='w-full min-h-screen scroll-smooth w-screen flex flex-col grow justify-center items-center bg-[#fff7f7]'
+      id='projects'
+      className='w-full min-h-screen scroll-smooth w-screen flex flex-col grow justify-center items-center'
     >
       <div className='w-[70%] my-[10%]'>
-        <h1 className='text-[5rem] font-bitter font-bold text-left'>
-          About my work
+        <h1 className='text-[5rem]  font-bitter font-bold text-left'>
+          My projects
           <span>.</span>
         </h1>
         <h2>
@@ -32,4 +32,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default Projects;

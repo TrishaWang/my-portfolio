@@ -7,11 +7,11 @@ const Skillset = () => {
   return (
     <div
       id='skillset'
-      className='h-screen w-full grow flex md:flex lg:justify-center sm:align-center bg-[#f7f8f9]'
+      className='min-h-screen w-full flex grow md:flex lg:justify-center sm:align-center bg-[#f7f8f9]'
     >
-      <div className='md:h-auto h-screen min-w-[300px] md:min-w-[700px] lg:w-[1000px] flex justify-center flex-col my-auto mx-auto py-3 px-6'>
+      <div className='md:h-auto min-h-screen min-w-[300px] md:min-w-[700px] lg:w-[1000px] flex justify-center flex-col my-[5%] sm:my-auto mx-auto py-3 px-6'>
         {/* skill header */}
-        <div className='sm:w-2/3 w-full h-24 p-4 mx-auto mb-10'>
+        <div className='sm:w-2/3 w-full h-24 p-4 mx-auto mb-10 md:mt-0 mt-10'>
           <h1 className='flex justify-center text-6xl '>
             my skillset
             <span>.</span>
