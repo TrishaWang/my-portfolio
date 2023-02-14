@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import About from "./About.js";
 import Skillset from "./Skillset";
 import Projects from "./Projects";
+import Contact from "./Contact";
 import Home from "./Home";
 import "./App.css";
 
@@ -17,16 +18,7 @@ function App() {
       {/* Projects */}
       <Projects />
       {/* Contact */}
-      <div
-        id='contact'
-        className='container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10'
-      >
-        <p className='text-3xl text-gray-700 font-bold mb-5'>Contact Me</p>
-        <a href="mailto:trish.regine@gmail.com?subject=🤘 Hi Trisha, I'd like to hire you">
-          hire me
-        </a>
-        <p className='text-gray-500 text-lg'></p>
-      </div>
+      <Contact />
     </div>
   );
 }

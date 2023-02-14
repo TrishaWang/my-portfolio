@@ -25,14 +25,22 @@ h1 {
   @apply font-bitter;
 }
 
+#nav li {
+  @apply px-[2rem] uppercase;
+}
+
 #home button {
-  @apply relative  border-[white] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid hover:bg-[#aadcec] hover:text-[white];
+  @apply hover:bg-[#aadcec] border-[white] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid hover:text-[white];
 }
 #home a {
   @apply hover:text-white font-bitter;
 }
+button a {
+  @apply font-[700]  capitalize tracking-widest font-bitter;
+}
+
 #home button a {
-  @apply font-[700] text-[#73bbc5]  capitalize tracking-widest;
+  @apply text-[#73bbc5];
 }
 
 #about a {
@@ -58,7 +66,7 @@ h1 {
 }
 
 #projects {
-  @apply bg-[fdfbf9];
+  @apply bg-[#fdfbf9];
 }
 #projects h1 {
   @apply text-[#47280b];
@@ -66,6 +74,18 @@ h1 {
 
 #projects span {
   @apply text-[#ff5708];
+}
+
+#projects button {
+  @apply hover:bg-[#ff570];
+}
+
+#contact {
+  @apply bg-[#7f00e0];
+}
+
+#contact button > a {
+  @apply text-[1.2rem] text-[white] hover:text-[#7f00e0] hover:bg-[white] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
 }
 
 span {
@@ -91,4 +111,39 @@ input::placeholder {
 }
 button:hover a {
   color: white;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
