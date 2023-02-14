@@ -7,7 +7,7 @@ const Nav = () => {
       <div id='nav' className='sticky top-0'>
         {/* nav image */}
         <nav className='py-4 px-12 w-full flex justify-between items-center h-auto bg-white'>
-          <div className='md:w-[150px] w-300px  -my-5'>
+          <div className='md:w-[130px] w-150px  -my-5'>
             <img
               className='object-cover'
               src='../img/signature.png'

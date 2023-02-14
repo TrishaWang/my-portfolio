@@ -43,11 +43,17 @@ button a {
   @apply text-[#73bbc5];
 }
 
+#about {
+  @apply bg-[#fbf4f4];
+}
 #about a {
   @apply font-[700] text-[#73bbc5]  capitalize tracking-widest;
 }
 #about h1 {
   @apply text-[#021963];
+}
+#about span {
+  @apply text-[#f67796];
 }
 
 #about h2 {
@@ -66,7 +72,8 @@ button a {
 }
 
 #projects {
-  @apply bg-[#fdfbf9];
+  @apply bg-[#f9f5f1] font-bitter;
+  background-color: #f9f5f1;
 }
 #projects h1 {
   @apply text-[#47280b];
@@ -74,6 +81,10 @@ button a {
 
 #projects span {
   @apply text-[#ff5708];
+}
+
+h2 {
+  @apply text-justify;
 }
 
 #projects button {
@@ -85,7 +96,7 @@ button a {
 }
 
 #contact button > a {
-  @apply text-[1.2rem] text-[white] hover:text-[#7f00e0] hover:bg-[white] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
+  @apply duration-300 text-[1.2rem] text-[white] hover:text-[#7f00e0] hover:bg-[white] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
 }
 
 span {
