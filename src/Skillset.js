@@ -11,8 +11,8 @@ const Skillset = () => {
     >
       <div className='md:h-auto min-h-screen min-w-[300px] md:min-w-[700px] lg:w-[1000px] flex justify-center flex-col my-[5%] sm:my-auto mx-auto py-3 px-6'>
         {/* skill header */}
-        <div className='sm:w-2/3 w-full h-24 p-4 mx-auto mb-10 md:mt-0 mt-10'>
-          <h1 className='flex justify-center text-6xl '>
+        <div className=' mx-auto mb-10  mt-10'>
+          <h1 className='text-[5.1rem] flex justify-center text-6xl '>
             my skillset
             <span>.</span>
           </h1>

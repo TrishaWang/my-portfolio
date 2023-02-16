@@ -83,9 +83,9 @@ button a {
   @apply text-[#ff5708];
 }
 
-h2 {
+/* h2 {
   @apply text-justify;
-}
+} */
 
 #projects button {
   @apply hover:bg-[#ff570];
