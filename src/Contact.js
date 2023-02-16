@@ -8,8 +8,8 @@ const Contact = () => {
       id='contact'
       className='w-screen min-h-[15vh] flex flex-row justify-center items-center'
     >
-      <div className='my-[1.7rem] '>
-        <div className='px-[1rem]'>
+      <div className='my-[1.5rem] '>
+        <div className='px-[0.4rem]'>
           {/* <h1 className='text-[white] capitalize'>socials</h1> */}
           <div className=' flex justify-between mb-[2rem]'>
             <SocialIcon

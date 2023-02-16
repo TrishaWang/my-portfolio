@@ -96,7 +96,7 @@ button a {
 }
 
 #contact button > a {
-  @apply duration-300 text-[1.2rem] text-[white] hover:text-[#7f00e0] hover:bg-[white] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
+  @apply duration-300 text-[1.2rem] text-[white] hover:text-[#7f00e0] hover:bg-[white] z-[2] px-[2.3rem] py-[0.8rem] rounded-lg border-[3px] border-solid;
 }
 
 span {
