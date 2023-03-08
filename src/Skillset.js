@@ -7,9 +7,9 @@ const Skillset = () => {
   return (
     <div
       id='skillset'
-      className='min-h-screen w-full flex grow md:flex lg:justify-center sm:align-center bg-[#f7f8f9]'
+      className='min-h-screen w-full flex grow  content-center justify-center  bg-[#f7f8f9]'
     >
-      <div className='md:h-auto min-h-screen min-w-[300px] md:min-w-[700px] lg:w-[1000px] flex justify-center flex-col my-[5%] sm:my-auto mx-auto py-3 px-6'>
+      <div className=' min-h-screen  min-w-[85vw] md:min-w-[70vw] lg:min-w-[60vw] flex justify-center flex-col my-[5%]  py-3 '>
         {/* skill header */}
         <div className=' mx-auto mb-10  mt-10'>
           <h1 className='text-[5.1rem] flex justify-center text-6xl '>

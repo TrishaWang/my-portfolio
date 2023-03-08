@@ -9,9 +9,9 @@ const Contact = () => {
       className='w-screen min-h-[15vh] flex flex-row justify-center items-center'
     >
       <div className='my-[1.5rem] '>
-        <div className='px-[0.4rem]'>
+        <div className='px-[0.4rem] '>
           {/* <h1 className='text-[white] capitalize'>socials</h1> */}
-          <div className=' flex justify-between mb-[2rem]'>
+          <div className=' flex justify-between mb-[1.2rem]'>
             <SocialIcon
               style={{ height: 40, width: 40 }}
               bgColor='white'

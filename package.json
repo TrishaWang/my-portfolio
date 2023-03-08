@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "build-css": "tailwindcss build src/styles.css -o public/styles.css",
     "watch": " postcss ./src/index.css -o ./public/output.css --watch",
-    "postinstall": "node script.js"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "eslintConfig": {
     "extends": [
