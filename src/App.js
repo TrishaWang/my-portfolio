@@ -1,9 +1,9 @@
-import Nav from "./Nav";
-import About from "./About.js";
-import Skillset from "./Skillset";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Home from "./Home";
+import Nav from "./components/Nav";
+import About from "./components/About.js";
+import Skillset from "./components/Skillset";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
 import "./App.css";
 
 function App() {

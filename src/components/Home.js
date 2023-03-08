@@ -10,27 +10,26 @@ const Home = () => {
         className='min-h-screen w-full bg-[#f4f9fc] flex flex-col justify-center items-center '
       >
         <div className='home'>
-          <h1 className='py-6 text-[15vw] md:text-[10vw] lg:text-[5vw]'>
+          <h1>
             Greetings, I'm Trisha
-            <span>.</span>
+            <span>! &</span>
+            {/* <span className='greetings_span'>&</span> */}
           </h1>
           <Typed
             strings={[
-              "I'm a Frontend <Web> Developer",
-              "I love tech",
-              "I love art",
-              "I love designing",
-              "I love coding",
+              "I'm a <Web> Developer",
+              "I a techie.",
+              "I a designer.",
+              "I a superhero movie fan. 🗲",
+              "I a world traveler. 🗺️",
+              "I an optimist. 🥛",
             ]}
             typeSpeed={80}
-            backSpeed={40}
+            backSpeed={60}
             attr='placeholder'
             loop
           >
-            <input
-              className=' w-[90vw] md:w-[85vw] lg:w-[70vw] '
-              type='text'
-            />
+            <input className=' w-[90vw] md:w-[85vw] lg:w-[70vw] ' type='text' />
           </Typed>
 
           <button className=' mx-auto mt-[8rem] block'>
@@ -38,8 +37,6 @@ const Home = () => {
               more about me
             </a>
           </button>
-
-
         </div>
       </div>
     </>
