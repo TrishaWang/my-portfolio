@@ -3,8 +3,22 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-
+:root {
+  --main-bg-color: #7f00e0;
+  --main-bg-color2: #021963;
+  --main-bg-color3: #aadcec;
+  --main-bg-color4: #73bbc5;
+  --main-bg-color5: #fbf4f4;
+  --main-bg-color6: #f67796;
+  --main-bg-color7: #1c494c;
+  --main-bg-color8: #73cadc;
+  --main-bg-color9: #f9f5f1;
+  --main-bg-color10: #47280b;
+  --main-bg-color11: #ff5708;
+  --main-bg-color12: #f67439;
+  --main-bg-color13: #ffffff;
+  --main-bg-color14: #7f00e0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -20,7 +34,7 @@ code {
 }
 
 h1 {
-  @apply text-[5rem] text-[#021963] font-bitter font-bold;
+  @apply text-[5rem] text-[var(--main-bg-color2)] font-bitter font-bold;
 }
 
 button a {
@@ -31,88 +45,105 @@ button a {
 }
 
 #nav li {
-  @apply px-[2rem] uppercase hover:text-[#7f00e0] delay-100;
+  @apply px-[2rem] uppercase hover:text-[var(--main-bg-color)] delay-100;
 }
 
-
 #home button > a {
-  @apply text-[#73bbc5] duration-150 text-[1.1rem] hover:text-white font-bitter hover:bg-[#aadcec] border-[#aadcec] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
+  @apply text-[var(--main-bg-color4)] duration-150 text-[1.1rem] hover:text-white font-bitter hover:bg-[var(--main-bg-color3)] border-[var(--main-bg-color3)] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
+}
+#home h1 {
+  @apply py-6 text-[7vw] md:text-[5vw] lg:text-[3.5vw];
+}
+#home .greetings_span {
+  @apply block;
 }
 
 #about {
-  @apply bg-[#fbf4f4];
+  @apply bg-[var(--main-bg-color5)];
 }
 #about a {
-  @apply font-[700] text-[#73bbc5]  capitalize tracking-widest;
+  @apply font-[700] text-[var(--main-bg-color4)]  capitalize tracking-widest;
 }
 #about h1 {
-  @apply text-[#021963];
+  @apply text-[var(--main-bg-color2)];
 }
 #about span {
-  @apply text-[#f67796];
+  @apply text-[var(--main-bg-color6)];
 }
 
 #about h2 {
-  @apply font-bitter text-[#021963] text-[1.2rem] text-left pt-[1.8rem];
+  @apply font-bitter text-[var(--main-bg-color2)] text-[1.2rem] text-left pt-[1.8rem];
+}
+
+#skillset {
+  @apply bg-[var(--main-bg-color14)];
 }
 
 #skillset h1 {
-  @apply text-[#1c494c] capitalize;
+  @apply text-[var(--main-bg-color13)] capitalize;
 }
 #skillset span {
-  @apply text-[#73cadc];
+  @apply text-[var(--main-bg-color3)];
 }
 
 #skillset p {
-  @apply font-semibold font-bitter text-[#1c494c];
+  @apply font-semibold font-bitter text-[var(--main-bg-color13)];
+}
+
+#skillset i {
+  @apply text-[70px] mx-auto my-1 text-[var(--main-bg-color13)];
 }
 
 #projects {
-  @apply bg-[#f9f5f1] font-bitter;
+  @apply bg-[var(--main-bg-color9)] font-bitter;
 }
 
 #projects #title h1 {
-  @apply text-[#47280b];
+  @apply text-[var(--main-bg-color10)];
 }
 
 #projects #title span {
-  @apply text-[#ff5708];
+  @apply text-[var(--main-bg-color11)];
 }
 
 #projects h2 {
-  @apply text-[#ff5708] font-bold text-[1.5rem];
-} 
-
-#projects p{
-  @apply text-[#47280b] font-semibold;
+  @apply text-[var(--main-bg-color11)] font-bold text-[1.5rem];
 }
 
-#projects span{
+#projects p {
+  @apply text-[var(--main-bg-color10)] font-semibold;
+}
+
+#projects span {
   @apply text-white font-semibold;
 }
 
 #projects button {
-  @apply hover:bg-[#ff570];
+  @apply hover:bg-[var(--main-bg-color11)];
+}
+
+#projects .tech_stack_projects {
+  @apply bg-[var(--main-bg-color12)] mr-[0.7rem] text-[10px] sm:text-[12px] md:text-[14px] font-semibold px-5 py-2 rounded;
 }
 
 #contact {
-  @apply bg-[#7f00e0];
+  @apply bg-[var(--main-bg-color)];
 }
 
 #contact button > a {
-  @apply duration-300 text-[1.1rem] text-[white] hover:text-[#7f00e0] hover:bg-[white] z-[2] px-[2.3rem] py-[0.8rem]  rounded-lg border-[3px] border-solid;
+  @apply duration-300 text-[1.1rem] text-[white] hover:text-[var(--main-bg-color)] hover:bg-[white] z-[2] px-[2.3rem] py-[0.8rem]  rounded-lg border-[3px] border-solid;
 }
 
 span {
-  @apply text-[#73bbc5];
+  @apply text-[var(--main-bg-color4)];
 }
 
 input {
-  @apply border-[#7f00e0] border-[5px] border-solid text-center rounded focus:outline-none font-semibold  py-[0.5rem]  text-[5.2vw] md:text-[3.5vw]  lg:text-[3.5vw] text-left ;
+  @apply border-[var(--main-bg-color)] border-[5px] border-solid text-center rounded focus:outline-none font-semibold  py-[0.5rem]  text-[5.2vw] md:text-[3.5vw]  lg:text-[3.5vw] text-left;
 }
 
 input::placeholder {
-  @apply text-[#73bbc5];
+  @apply text-[var(--main-bg-color4)];
 }
 
 /* .stripes {
@@ -124,7 +155,6 @@ input::placeholder {
   background-size: 11px;
   opacity: 0.6;
 }
-
 
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
