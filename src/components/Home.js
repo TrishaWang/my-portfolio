@@ -5,31 +5,29 @@ const Home = () => {
   return (
     <>
       {/* Home */}
-      <div
-        id='home'
-        className='min-h-screen w-full bg-[#f4f9fc] flex flex-col justify-center items-center '
-      >
+      <div id='home'>
         <div className='home'>
           <h1>
             Greetings, I'm Trisha
-            <span>! &</span>
-            {/* <span className='greetings_span'>&</span> */}
+            <span>!</span>
           </h1>
           <Typed
             strings={[
-              "I'm a <Web> Developer",
-              "I a techie.",
-              "I a designer.",
-              "I a superhero movie fan. 🗲",
-              "I a world traveler. 🗺️",
-              "I an optimist. 🥛",
+              "I'm a <Web> Developer 🖥️",
+              "I'm a techie.📱",
+              "I'm a designer. 🖌️",
+              "I'm a board game lover. 🎲",
+              "I'm a music lover. 🎵",
+              "I'm a cinephile. 🎥",
+              "I'm a world traveler. 🗺️",
+              "I'm an optimist. 🥛",
             ]}
-            typeSpeed={80}
-            backSpeed={60}
+            typeSpeed={60}
+            backSpeed={40}
             attr='placeholder'
             loop
           >
-            <input className=' w-[90vw] md:w-[85vw] lg:w-[70vw] ' type='text' />
+            <input className=' w-[90vw] md:w-[80vw] lg:w-[65vw] ' type='text' />
           </Typed>
 
           <button className=' mx-auto mt-[8rem] block'>

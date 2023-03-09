@@ -18,26 +18,20 @@ const data_skill = [
     alt: "Java icon",
   },
   {
-    id: 4,
-    skill: "Node.js",
-    image: "devicon-nodejs-plain",
-    alt: "Node js icon",
-  },
-  {
     id: 5,
-    skill: "HTML",
+    skill: "HTML 5",
     image: "devicon-html5-plain",
-    alt: "HTML icon",
+    alt: "HTML 5 icon",
   },
   {
     id: 6,
-    skill: "CSS",
+    skill: "CSS 3",
     image: "devicon-css3-plain",
     alt: "CSS icon",
   },
   {
     id: 7,
-    skill: "React",
+    skill: "React Js",
     image: "devicon-react-original",
     alt: "React icon",
   },
@@ -64,6 +58,12 @@ const data_skill = [
     skill: "MS SQL",
     image: "devicon-microsoftsqlserver-plain",
     alt: "MS SQL icon",
+  },
+  {
+    id: 12,
+    skill: "Figma",
+    image: "devicon-figma-plain",
+    alt: "Figma icon",
   },
 ];
 
