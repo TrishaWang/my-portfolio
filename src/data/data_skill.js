@@ -65,6 +65,12 @@ const data_skill = [
     image: "devicon-microsoftsqlserver-plain",
     alt: "MS SQL icon",
   },
+  {
+    id: 12,
+    skill: "Figma",
+    image: "devicon-figma-plain",
+    alt: "Figma icon",
+  },
 ];
 
 export default data_skill;

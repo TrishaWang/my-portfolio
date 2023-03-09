@@ -2,25 +2,26 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
-      id='about'
-      className='w-full min-h-screen scroll-smooth w-screen flex flex-col grow justify-center items-center '
-    >
-      <div className='w-[70%] my-[10%]'>
-        <h1 className='text-[5rem] font-bitter font-bold text-left'>
-          About my work
+    <div id='about'>
+      <div className='max-w-[70vw] my-[10vw]'>
+        <h1 className='text-[5rem] font-bold text-left'>
+          About me
           <span>.</span>
         </h1>
-        <h2>
+        <p>
           Hi, Im Trisha, an artist at heart. Passionate about innovation,
           creating new things, and using my skills to improve quality of
-          people’s lives (like a fairy godmother of sorts? heh). If you are or
-          you know of an organization whose vision aligns with mine, feel free
-          to connect! I specialise in accessibility, performance and usability
-          without sacrificing creativity. I'm open to Job opportunities where I
-          can contribute, learn and grow. If you have a good opportunity that
-          matches my skills and experience then don't hesitate to contact me.
-        </h2>
+          people’s lives (like a fairy godmother of sorts? heh).
+        </p>
+        <p>
+          I have a Bachelors Degree in Computer Science from University of Santo
+          Thomas.
+        </p>
+        <p>
+          I'm happiest when I'm creating, learning, exploring and thinking about
+          how to make things better.I'm not available for any freelance work,
+          but feel free to reach out and say hello! I promise I don't bite 😉
+        </p>
       </div>
     </div>
   );

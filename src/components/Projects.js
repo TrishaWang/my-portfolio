@@ -4,13 +4,10 @@ import data from "../data/data_project";
 const Projects = () => {
   const [projects, useProjects] = useState(data);
   return (
-    <div
-      id='projects'
-      className='w-full min-h-screen scroll-smooth flex flex-col justify-center items-center'
-    >
-      <div className='max-w-[85%] my-[10%] bg-pink'>
+    <div id='projects'>
+      <div className='max-w-[85vw] my-[10%] bg-pink'>
         <div id='title'>
-          <h1 className='text-[5rem]  font-bitter '>
+          <h1 className='text-[70px]  font-bitter '>
             My projects
             <span>.</span>
           </h1>
@@ -22,10 +19,16 @@ const Projects = () => {
             return (
               <div key={id} className='my-[2rem]'>
                 <h2>{name}</h2>
-                <p className='my-[0.9rem]'>{desc}</p>
-                {tech.map((tech) => {
-                  return <span className='tech_stack_projects'>{tech}</span>;
-                })}
+                <p className='my-[0.9rem] '>{desc}</p>
+                <div className='flex flex-wrap '>
+                  {tech.map((tech) => {
+                    return (
+                      <span className='tech_stack_projects my-[0.2rem]'>
+                        {tech}
+                      </span>
+                    );
+                  })}
+                </div>
               </div>
             );
           })}
