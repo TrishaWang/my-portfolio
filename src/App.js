@@ -11,13 +11,9 @@ function App() {
     <div className='App scroll-smooth'>
       <Home />
       <Nav />
-      {/* About */}
       <About />
-      {/* Skill */}
       <Skillset />
-      {/* Projects */}
       <Projects />
-      {/* Contact */}
       <Contact />
     </div>
   );

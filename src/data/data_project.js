@@ -1,20 +1,21 @@
 const data_project = [
+  // TBC
   // {
   //   id: 1,
   //   name: "Spotit",
-  //   desc: "Spotit is a passion project that shows your spotify top tracks and top artist with a playlist creator",
+  //   desc: "Spotit shows your spotify top tracks and top artist with a playlist creator",
   //   tech: ["React", "Material UI", "Chart.js", "Spotify API"],
   // },
   {
     id: 1,
-    name: "11/10 Movies",
-    desc: "11/10 Movies is a passion project of mine as a cinephile. It lets you discover movies which you can add to your movie watchlist.",
-    tech: ["React", "Boostrap", "TBDB API", "Sass"],
+    name: "11/10 movies",
+    desc: "11/10 movies is a passion project of mine. See the latest trending movies or discover movies which you can add to your movie watchlist.",
+    tech: ["React JS", "Bootstrap", "TMDB API", "Sass"],
   },
   {
     id: 2,
-    name: "Optimal Facility Layout - Thesis paper",
-    desc: "A facility layout generator that generates the most opimized layout with the use of Genetic Algorithm",
+    name: "Optimized Architectural Floor Plan Layout Design Using Genetic Algorithm",
+    desc: "A artificial intelligence capstone project that generates optimized building layouts given constraint parameters such as height, width andareas/facilities. Programmed entirely in Java",
     tech: ["Java", "Desktop App"],
   },
 ];

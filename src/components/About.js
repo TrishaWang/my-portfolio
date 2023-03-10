@@ -19,7 +19,7 @@ const About = () => {
         </p>
         <p>
           I'm happiest when I'm creating, learning, exploring and thinking about
-          how to make things better.I'm not available for any freelance work,
+          how to make things better. I'm not available for any freelance work,
           but feel free to reach out and say hello! I promise I don't bite 😉
         </p>
       </div>
