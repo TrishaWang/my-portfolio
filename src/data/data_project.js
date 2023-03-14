@@ -9,7 +9,7 @@ const data_project = [
   {
     id: 1,
     name: "11/10 movies",
-    desc: "11/10 movies is a passion project of mine. See the latest trending movies or discover movies which you can add to your movie watchlist.",
+    desc: "A passion web app of mine that lets you see latest trending movies and discover movies to add in your watchlist.",
     tech: ["React JS", "Bootstrap", "TMDB API", "Sass"],
   },
   {

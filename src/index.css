@@ -19,6 +19,11 @@
   --main-bg-color13: #ffffff;
   --main-bg-color14: #7f00e0;
 }
+
+* {
+  scroll-behavior: smooth !important;
+}
+
 body {
   margin: 0;
   font-family: Bitter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -79,7 +84,7 @@ button a {
   @apply text-[var(--main-bg-color4)] duration-150 text-[1.1rem] hover:text-white  hover:bg-[var(--main-bg-color3)] border-[var(--main-bg-color3)] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
 }
 #home h1 {
-  @apply py-6 text-[7vw] md:text-[5vw] lg:text-[3.5vw];
+  @apply py-6 text-[7vw] md:text-[5vw] lg:text-[3.5vw] text-center;
 }
 #home .greetings_span {
   @apply block;
@@ -107,7 +112,7 @@ button a {
 }
 
 #skillset p {
-  @apply font-semibold  text-[var(--main-bg-color13)];
+  @apply font-semibold text-[var(--main-bg-color13)];
 }
 
 #skillset i {

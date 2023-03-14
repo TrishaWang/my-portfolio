@@ -46,11 +46,6 @@ const Nav = () => {
               ref={linksRef}
               className='links flex justify-around content-center flex-col md:flex-row align-center justify-center font-bold text-[#021963]'
             >
-              {/* <li>
-                <a href='#home' className=''>
-                Home
-                </a>
-              </li> */}
               <li>
                 <a href='#about'>About Me</a>
               </li>

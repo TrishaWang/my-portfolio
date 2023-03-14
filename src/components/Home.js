@@ -10,7 +10,6 @@ const Home = () => {
           <h1>
             Greetings, I'm Trisha
             <span>!</span>
-            {/* <span className='greetings_span'>&</span> */}
           </h1>
           <Typed
             strings={[
