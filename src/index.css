@@ -18,6 +18,11 @@
   --main-bg-color12: #f67439;
   --main-bg-color13: #ffffff;
   --main-bg-color14: #7f00e0;
+  --main-bg-color15: #f4f9fc;
+  --main-bg-color16: #e9f3f9;
+  --main-bg-color17: #ffffff;
+  --main-bg-color18: #9ed2e3;
+  --main-bg-color19: #c18dea;
 }
 
 * {
@@ -56,7 +61,7 @@ button a {
   @apply bg-[var(--main-bg-color)] w-screen min-h-[15vh] flex flex-row justify-center items-center;
 }
 #home {
-  @apply min-h-screen w-full bg-[#f4f9fc] flex flex-col justify-center items-center;
+  @apply min-h-screen w-full bg-[var(--main-bg-color15)] flex flex-col justify-center items-center;
 }
 #nav {
   @apply sticky top-0;
@@ -80,14 +85,16 @@ button a {
   @apply py-[0.5rem];
 }
 
+/* #home button > a {
+  @apply text-[var(--main-bg-color17)] bg-[var(--main-bg-color3)]  border-[var(--main-bg-color3)] hover:bg-[var(--main-bg-color18)] hover:border-[var(--main-bg-color18)] duration-150 text-[1.1rem]  z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
+} */
+
 #home button > a {
-  @apply text-[var(--main-bg-color4)] duration-150 text-[1.1rem] hover:text-white  hover:bg-[var(--main-bg-color3)] border-[var(--main-bg-color3)] z-[2] px-[45px] py-[15px] rounded-lg border-[3px] border-solid;
+  @apply text-[var(--main-bg-color)]  border-[var(--main-bg-color17)] hover:border-[var(--main-bg-color17)] hover:bg-[var(--main-bg-color)] hover:text-[var(--main-bg-color17)] duration-300 text-[1.5rem] px-[1.2rem] pt-[0.6rem] pb-[0.8rem] rounded-xl border-[0.2rem] border-solid;
 }
+
 #home h1 {
-  @apply py-6 text-[7vw] md:text-[5vw] lg:text-[3.5vw] text-center;
-}
-#home .greetings_span {
-  @apply block;
+  @apply py-6 text-[7vw] md:text-[5vw] lg:text-[3.5vw] text-center text-[var(--main-bg-color2)];
 }
 
 #about a {
@@ -156,11 +163,11 @@ span {
 }
 
 input {
-  @apply border-[var(--main-bg-color)] border-[5px] border-solid text-center rounded focus:outline-none font-semibold  py-[0.4rem] lg:py-[0.2.5rem]  text-[5.2vw] md:text-[3.5vw]  lg:text-[3vw] text-left;
+  @apply bg-[var(--main-bg-color17)]  border-[var(--main-bg-color)]  border-[4px] border-solid text-center rounded focus:outline-none font-semibold  py-[0.4rem] lg:py-[0.2.5rem]  text-[5.2vw] md:text-[3.5vw]  lg:text-[3vw] text-left;
 }
 
 input::placeholder {
-  @apply text-[var(--main-bg-color4)];
+  @apply text-[var(--main-bg-color1)];
 }
 
 /* .stripes {
@@ -245,4 +252,31 @@ Navbar
 #about {
   cursor: url("https://cdn.discordapp.com/emojis/838672044040126494.webp?size=40&quality=lossless"),
     auto;
+}
+
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

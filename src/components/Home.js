@@ -1,12 +1,13 @@
 import React from "react";
 import Typed from "react-typed";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Home = () => {
   return (
     <>
       {/* Home */}
       <div id='home'>
-        <div className='home'>
+        <div className='mt-[7rem]'>
           <h1>
             Greetings, I'm Trisha
             <span>!</span>
@@ -30,9 +31,9 @@ const Home = () => {
             <input className=' w-[90vw] md:w-[80vw] lg:w-[65vw] ' type='text' />
           </Typed>
 
-          <button className=' mx-auto mt-[8rem] block'>
+          <button className='mx-auto mt-[12rem] block bounce'>
             <a href='#nav' className=''>
-              more about me
+              <AiOutlineArrowDown className='inline' stroke-width='35' />
             </a>
           </button>
         </div>
